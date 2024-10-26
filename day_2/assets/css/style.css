@@ -1,0 +1,18 @@
+.cls-point {
+    list-style-image: url(https://via.placeholder.com/15);
+
+}
+.left-arrow ul {
+    list-style: none;
+}
+.left-arrow li::before {
+    content: "→";
+    color: blue;
+}
+
+.navbar-lists li {
+    list-style: none;
+}
+dt {
+    font-weight: bold;
+}

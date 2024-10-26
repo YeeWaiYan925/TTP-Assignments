@@ -1,0 +1,13 @@
+header, .title {
+    text-align: center;
+    background-color: skyblue;
+    padding: 20px 10px;
+}
+.contant {
+    color: blue;
+}
+.ls-title {
+    padding: 20px 10px;
+    text-align: center;
+    background-color: grey;
+}

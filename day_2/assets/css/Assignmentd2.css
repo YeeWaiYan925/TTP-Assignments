@@ -1,0 +1,43 @@
+.navbar-lists ul {
+    display: flex;
+    padding: 10px;
+}
+.navbar-lists ul li{
+    width: 100%;
+    background-color: cadetblue;
+    padding: 10px;
+    list-style: none;
+}
+.maintable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.maintable table{
+    text-align: start;
+}
+.maintable table tr:nth-child(odd){
+    background-color: gainsboro
+}
+.maintable th {
+    background-color: cadetblue;
+    text-align: start;
+}
+.second-table td {
+    height: 50px;
+}
+.second-table, table {
+    width: 100%;
+}
+.second-table table tr:nth-child(2) td:nth-child(1) {
+    vertical-align: top;
+}
+.second-table table tr:nth-child(2) td:nth-child(3) {
+    vertical-align: bottom;
+}
+.second-table table tr:nth-child(3) td:nth-child(1) {
+    vertical-align: bottom;
+}
+.second-table table tr:nth-child(3) td:nth-child(3) {
+    vertical-align: top;
+}
+

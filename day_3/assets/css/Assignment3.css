@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #EDE8DC;
+}
+.navbar {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: #B17457;
+    padding: 10px;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+.navbar ul li:hover {
+    color: black;
+    cursor: pointer;
+}
+section.title{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/backgoround_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.text{
+    color: white;
+}
+.text h2{
+    margin-bottom: 20px;
+}
+.text button {
+    color: white;
+    padding: 20px 30px;
+    margin-top: 20px;
+    background-color: #B17457;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.text button:hover {
+    color: black;
+}
+div.FAQ {
+    margin-top: 20px;
+    text-align: center;
+}
+div p {
+    margin-top: 10px;
+}
+.dl-list {
+    width: 75%;
+    margin: 30px auto;
+
+}
+.dl-list dt {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #B17457;
+    color: white;
+}
+.dl-list dd {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.footer p {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table tr th {
+    width: 25%;
+}
+th {
+    background-color: grey;
+}
+table tr td {
+    vertical-align: top;
+}
+th, td {
+    padding: 20px;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}

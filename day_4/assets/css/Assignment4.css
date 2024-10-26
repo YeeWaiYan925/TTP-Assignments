@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-lists {
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+h2 {
+    margin: 20px;
+}
+.navbar-lists ul {
+    display: flex;
+    gap: 30px;
+    margin: 25px 50px;
+    list-style: none;
+}
+main {
+    display: flex;
+}
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    background-color: slategray;
+    color: white;
+    border-radius: 3px;
+}
+.sidebar li i {
+    padding-right: 10px;
+}
+.sidebar1 {
+    margin-top: 20px;
+    padding-left: 20px;
+    list-style: none;
+    line-height: 30px;
+}
+.sidebar1 li:hover {
+    background-color: cadetblue;
+}
+.sidebar2 {
+    margin-top: 20px;
+    padding-left: 20px;
+    line-height: 30px;
+    list-style: none;
+}
+.sidebar2 li:hover {
+    background-color: cadetblue;
+}
+body {
+    background-color: azure;
+}
+.content {
+    background-color: aquamarine;
+    width: 80%;
+    margin-top: 50px;
+    margin-left:80%;
+    border-radius: 10px;
+    box-shadow: 20px;
+}
+.input-content {
+    margin-top: 20px;
+    padding: 5px;
+}
+.gender-content {
+    margin-top: 20px;
+    padding: 5px;
+}
+.checkbox-content {
+    margin-top: 20px;
+    padding: 5px;
+}
+.select-content {
+    margin-top: 20px;
+    padding: 5px;
+}
+.message-content {
+    margin-top: 20px;
+    padding: 5px;
+}
+.btn-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
